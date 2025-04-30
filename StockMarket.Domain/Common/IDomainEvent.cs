@@ -1,0 +1,10 @@
+using System;
+
+namespace StockMarket.Domain.Common
+{
+    public interface IDomainEvent
+    {
+        Guid Id { get; }
+        DateTime OccurredOn { get; }
+    }
+} 
